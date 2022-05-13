@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePage-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group > label {
+  margin-bottom: 15px;
+}
+
+.form-group:last-child {
+  display: flex;
+  justify-content: center;
+}
